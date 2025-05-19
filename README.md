@@ -1,58 +1,63 @@
-# 🎨 ART 'O' HOLIC – Art Selling Platform
+# ART 'O' HOLIC – Art Selling Platform
 
-Welcome to the official GitHub repository for **ART 'O' HOLIC**, a full-stack MERN web application that enables users to explore, order, and pay for custom and premium artworks. Whether it's portraits, seasonal art, or religious themes – ART 'O' HOLIC delivers handcrafted pieces straight from artists to customers.
+Welcome to the official GitHub repository for **ART 'O' HOLIC**, a full-stack MERN web application that connects artists with art enthusiasts. This platform allows users to explore, customize, and purchase premium, handcrafted artwork — including portraits, seasonal pieces, and religious-themed art — directly from independent creators.
 
-## 🚀 Features
+## Features
 
-- 🖼 Upload & manage artwork with Cloudinary
-- 🛒 Browse product listings and custom offerings
-- 👤 User registration & login system
-- 💳 Secure payments via Stripe or Razorpay
-- 📦 Order tracking and admin dashboard
-- 🌐 Responsive, accessible frontend with dark/light mode
+* Upload and manage artwork using Cloudinary
+* Browse product listings and custom order options
+* User registration and authentication
+* Secure payment integration via Stripe or Razorpay
+* Order tracking and administrative dashboard
+* Responsive, accessible frontend with support for dark and light modes
 
-## 🧰 Tech Stack
+## Tech Stack
 
 **Frontend**
-- React (Vite)
-- Tailwind CSS
-- React Router
-- Axios
+
+* React (Vite)
+* Tailwind CSS
+* React Router
+* Axios
 
 **Backend**
-- Node.js + Express
-- MongoDB Atlas (Mongoose)
-- JWT Authentication
 
-**Other Integrations**
-- Cloudinary (Image hosting)
-- Stripe / Razorpay (Payments)
-- GitHub Actions (CI/CD)
-- Vercel / Netlify (Frontend Hosting)
-- Render / Railway (Backend Hosting)
+* Node.js with Express
+* MongoDB Atlas with Mongoose
+* JSON Web Token (JWT) authentication
 
-## 📁 Folder Structure
+**Integrations & Deployment**
+
+* Cloudinary (Image hosting)
+* Stripe / Razorpay (Payments)
+* GitHub Actions (CI/CD)
+* Vercel or Netlify (Frontend Hosting)
+* Render or Railway (Backend Hosting)
+
+## Folder Structure
+
+```
 art-o-holic/
-├── client/                 # React frontend (hosted on Vercel/Netlify)
+├── client/                 # React frontend (hosted on Vercel or Netlify)
 │   ├── public/
 │   ├── src/
-│   ├── .env               # FRONTEND env variables (e.g., REACT_APP_API_URL)
+│   ├── .env                # Frontend environment variables (e.g., REACT_APP_API_URL)
 │   └── package.json
 │
-├── server/                 # Express backend (hosted on Render/Railway/Heroku)
+├── server/                 # Express backend (hosted on Render or Railway)
 │   ├── controllers/
 │   ├── models/
 │   ├── routes/
 │   ├── utils/
 │   ├── config/
-│   ├── .env               # BACKEND env variables (DB URI, Cloudinary keys, etc.)
+│   ├── .env                # Backend environment variables (DB URI, Cloudinary keys, etc.)
 │   └── package.json
 │
-├── .github/               # GitHub workflows for CI/CD
+├── .github/                # GitHub workflows for CI/CD
 │   └── workflows/
-│       ├── frontend.yml   # Vercel CI/CD or Netlify build test
-│       └── backend.yml    # Render or Railway CI/CD triggers
+│       ├── frontend.yml    # Frontend build and deployment
+│       └── backend.yml     # Backend deployment and testing
 │
 ├── README.md
 └── .gitignore
-
+```
