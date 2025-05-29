@@ -211,8 +211,4 @@ cd client && npm run cypress
 - **New Relic**: Add your license key in `.env` for APM.
 - **Logs**: Access centralized logs via Render or a logging service like Loggly.
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Contact
-For inquiries, reach out to the ART 'O' HOLIC team at [support@artoholic.com](mailto:support@artoholic.com).
